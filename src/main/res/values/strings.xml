@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GroupG-D5</string>
+    <string name="send_to_database">Send to database</string>
+    <string name="data_view_hint1">Waiting for connection.</string>
+    <string name="data_view_hint2">Waiting for connection..</string>
+    <string name="data_view_hint3">Waiting for connection...</string>
+    <string name="data_view_connected">Connected!</string>
+    <string name="header_power_used">Average power used:</string>
+    <string name="header_cost">Total cost:</string>
+    <string name="current_rate">Current power rate:</string>
+    <string name="intro">Intro splash</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="restart_connection_title">Restart connection</string>
+    <string name="title_activity_intro_splash">IntroSplash</string>
+
+</resources>

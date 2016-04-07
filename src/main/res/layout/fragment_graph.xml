@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/power_use_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/header_power_used"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/power_use_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/current_rate_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/power_use_header"
+        android:text="@string/current_rate"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/current_rate_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/power_use_tv"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/total_cost_header"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/current_rate_header"
+        android:text="@string/header_cost"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/total_cost_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/current_rate_tv"
+        android:textSize="28sp" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_below="@+id/total_cost_header"
+        android:orientation="horizontal" />
+
+</RelativeLayout>
